@@ -13,12 +13,10 @@ $(document).ready(function(){
             $(this).attr('class','fa fa-times');
             $('#menu').show(1500);
             $('#wise_Wrap').fadeOut(1500);
-            $('#about').fadeOut(1500);
         }else{
             $('#menu').hide(1500);
             $('#wise_Wrap').fadeIn(1500);
             $(this).attr('class','fa fa-bars');
-            $('#about').fadeIn(1500);
         }
     });
     $('#menu li>a').mouseover(function(){

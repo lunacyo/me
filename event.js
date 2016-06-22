@@ -13,10 +13,14 @@ $(document).ready(function(){
             $(this).attr('class','fa fa-times');
             $('#menu').show(1500);
             $('#wise_Wrap').fadeOut(1500);
+            var about = $("#about");
+            TweenMax.staggerTo([about], 2,  {scale:0}, 0.25);
         }else{
             $('#menu').hide(1500);
             $('#wise_Wrap').fadeIn(1500);
             $(this).attr('class','fa fa-bars');
+            var about = $("#about");
+            TweenMax.staggerTo([about], 2,  {scale:1}, 0.25);
         }
     });
     $('#menu li>a').mouseover(function(){
@@ -28,8 +32,8 @@ $(document).ready(function(){
 });
 window.onload = function(){
    $('#wise_Wrap').slideDown(2000);
-   var main = $("main");
-    TweenLite.to(main, 3, {left:"0px",ease:Bounce.easeOut});
+   var about = $("#about");
+    TweenMax.staggerFrom([about], 2,  {scale:0.2}, 0.25);
     var dot1 = $('.dot1');
     var dot2 = $('.dot2');
     var dot3 = $('.dot3');
@@ -40,3 +44,14 @@ window.onload = function(){
     TweenMax.to(dot3, 5, {top:"-50",repeat:9999, ease: SlowMo.ease.config(0.7, 0.7, false), y: 0 });
     TweenMax.to(dot4, 5, {left:"-50",repeat:9999, ease: SlowMo.ease.config(0.7, 0.7, false), y: 0 });
 }
+//window.onload = function() {
+//  var red = document.getElementById("red"),
+//		    yellow = document.getElementById("yellow"),
+//		    green = document.getElementById("green"),
+//		    blue = document.getElementById("blue"),
+//		    pink = document.getElementById("pink"),
+//		    purple = document.getElementById("purple");
+//	
+//  //The last parameter with value of .25 is the stagger amount. Try changing it to 1 see how it impacts the animation.
+//  TweenMax.staggerFrom([red, yellow, green, blue, pink, purple], 1,  {scale:0.2, opacity:0.3}, 0.25);			
+//}

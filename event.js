@@ -20,7 +20,7 @@ $(document).ready(function(){
             $('#wise_Wrap').fadeIn(1500);
             $(this).attr('class','fa fa-bars');
             var about = $("#about");
-            TweenMax.staggerTo([about], 2,  {scale:1,opacity:0,display:'block'}, 0.25);
+            TweenMax.staggerTo([about], 2,  {scale:1,opacity:1,display:'block'}, 0.25);
         }
     });
     $('#menu li>a').mouseover(function(){

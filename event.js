@@ -13,14 +13,12 @@ $(document).ready(function(){
             $(this).attr('class','fa fa-times');
             $('#menu').show(1500);
             $('#wise_Wrap').fadeOut(1500);
-            var about = $("#about");
-            TweenMax.staggerTo([about], 2,  {scale:0,opacity:0}, 0.25);
+            $('#about').fadeOut(1500);
         }else{
             $('#menu').hide(1500);
             $('#wise_Wrap').fadeIn(1500);
             $(this).attr('class','fa fa-bars');
-            var about = $("#about");
-            TweenMax.staggerTo([about], 2,  {scale:1,opacity:1}, 0.25);
+            $('#about').fadeIn(1500);
         }
     });
     $('#menu li>a').mouseover(function(){

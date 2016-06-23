@@ -245,7 +245,6 @@ footer a:hover{
     height: 100%;
 }
 #about{
-    border: 1px solid aqua;
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -256,7 +255,6 @@ footer a:hover{
     text-align: center;
 }
 .about_Wrap{
-    border: 1px solid red;
     position: absolute;
     width: inherit;
     height: 500px;

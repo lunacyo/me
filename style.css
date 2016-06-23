@@ -412,50 +412,50 @@ footer a:hover{
 .text-copy {
   fill: none;
   stroke: white;
-  stroke-dasharray: 80 320;
+  stroke-dasharray: 20 80;
   stroke-width: 3px;
-  -webkit-animation: stroke-offset 7s infinite linear;
-          animation: stroke-offset 7s infinite linear;
-  -moz-animation: stroke-offset 7s infinite linear;
+  -webkit-animation: stroke-offset 9s infinite linear;
+          animation: stroke-offset 9s infinite linear;
+  -moz-animation: stroke-offset 9s infinite linear;
 }
 .text-copy:nth-child(1) {
   stroke: #360745;
-  stroke-dashoffset: 80;
+  stroke-dashoffset: 20;
 }
 .text-copy:nth-child(2) {
   stroke: #D61C59;
-  stroke-dashoffset: 160;
+  stroke-dashoffset: 40;
 }
 .text-copy:nth-child(3) {
   stroke: #E7D84B;
-  stroke-dashoffset: 240;
+  stroke-dashoffset: 60;
 }
 .text-copy:nth-child(4) {
-  stroke: #E7D84B;
-  stroke-dashoffset: 320;
+  stroke: #EFEAC5;
+  stroke-dashoffset: 80;
 }
 .text-copy:nth-child(5) {
-  stroke: #EFEAC5;
-  stroke-dashoffset: 400;
+  stroke: #1B8798;
+  stroke-dashoffset: 100;
 }
 
 @-webkit-keyframes stroke-offset {
   50% {
-    stroke-dashoffset: 400;
-    stroke-dasharray: 0 1000;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 0 250;
   }
 }
 
 @keyframes stroke-offset {
   50% {
-    stroke-dashoffset: 400;
-    stroke-dasharray: 0 1000;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 0 250;
   }
 }
 @-moz-keyframes stroke-offset {
   50% {
-    stroke-dashoffset: 400;
-    stroke-dasharray: 0 1000;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 0 250;
   }
 }
 

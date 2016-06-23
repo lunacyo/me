@@ -15,12 +15,16 @@ $(document).ready(function(){
             $('#wise_Wrap').fadeOut(1500);
             var about = $("#about");
             TweenMax.staggerTo([about], 2,  {scale:0,opacity:0,display:'none'}, 0.25);
+            var pf = $('#pf');
+            TweenMax.staggerTo([pf], 2,  {scale:0,opacity:0,display:'none'}, 0.25);
         }else{
             $('#menu').hide(1500);
             $('#wise_Wrap').fadeIn(1500);
             $(this).attr('class','fa fa-bars');
             var about = $("#about");
             TweenMax.staggerTo([about], 2,  {scale:1,opacity:1,display:'block'}, 0.25);
+            var pf = $('#pf');
+            TweenMax.staggerTo([pf], 2,  {scale:1,opacity:1,display:'block'}, 0.25);
         }
     });
     $('#menu li>a').mouseover(function(){
@@ -29,10 +33,45 @@ $(document).ready(function(){
     $('#menu li>a').mouseout(function(){
         $(this).css('color','#fff');
     });
+    $('.dg').mouseover(function(){
+        $(this).css('cursor','pointer').css('opacity','0.3');
+        $('.dg_Ex').slideDown(1000);
+    });
+    $('.dg').mouseout(function(){
+        $(this).css('opacity','1');
+        $('.dg_Ex').hide();
+    });
+    $('.dg').click(function(){
+        window.open('http://lunacyo.github.io/dg');
+    });
+    $('.apple').mouseover(function(){
+        $(this).css('cursor','pointer').css('opacity','0.3');
+        $('.apple_Ex').slideDown(1000);
+    });
+    $('.apple').mouseout(function(){
+        $(this).css('opacity','1');
+        $('.apple_Ex').hide();
+    });
+    $('.apple').click(function(){
+        window.open('http://lunacyo.github.io/apple'); 
+    });
+    $('.5tardium').mouseover(function(){
+        $(this).css('cursor','pointer').css('opacity','0.3');
+        $('.5tardium_Ex').slideDown(1000);
+    });
+    $('.5tardium').mouseout(function(){
+        $(this).css('opacity','1');
+        $('.5tardium_Ex').hide();
+    });
+    $('.5tardium').click(function(){
+        window.open('http://lunacyo.github.io/5tardium');
+    })
 });
 window.onload = function(){
-   var about = $("#about");
+    var about = $("#about");
     TweenMax.staggerFrom([about], 2,  {scale:0.2}, 0.25);
+    var pf = $('#pf');
+    TweenMax.staggerFrom([pf], 2,  {scale:0.2}, 0.25);
     var dot1 = $('.dot1');
     var dot2 = $('.dot2');
     var dot3 = $('.dot3');

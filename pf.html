@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <title>main index</title>
+    <title>my portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,mininum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -16,8 +16,8 @@
     </div>
     <nav id="menu">
         <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="pf.html">portfolio</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="#">portfolio</a></li>
             <li><a href="about.html">about</a></li>
         </ul>
     <footer>
@@ -31,21 +31,36 @@
   <div id="bg">
       <img src="img/falling_star_by_pronastya-da72noo.png" alt="background image fallen">
   </div>
-<!--  상단 글 svg-->
-    <svg id="wise_Wrap" viewBox="0 0 800 600">
-    <symbol id="s-text">
-    <text text-anchor="middle" x="50%" y="13%" class="text--line">
-      Beyond the Fantasy
-      </text>
-    </symbol>
-    <g class="g-ants">
-    <use xlink:href="#s-text" class="text-copy"></use>     
-    <use xlink:href="#s-text" class="text-copy"></use>     
-    <use xlink:href="#s-text" class="text-copy"></use>     
-    <use xlink:href="#s-text" class="text-copy"></use>     
-    <use xlink:href="#s-text" class="text-copy"></use>     
-    </g>
-    </svg>   
+  <div id="pf">
+  <ul class="slider">
+    <li><img class="dg" src="img/dg.png" alt="돌체 앤 가바나 포폴 이미지" /></li>
+    <li><img class="apple" src="img/apple.png" alt="애플 포폴 이미지" /></li>
+    <li><img class="5tardium" src="img/5tardium.png" alt="하이네켄 5tardium 포폴 이미지" /></li>
+    <li class="dg_Ex"><ul>
+        <li>돌체 앤 가바나 메인 페이지 하드코딩</li>
+        <li>소요 시간 &#58; 4일</li>
+        <li>html&#44;css&#44;jquery 사용</li>
+        <li>웹표준 준수 &#44; 반응형으로 제작</li>
+    </ul></li>
+    <li class="apple_Ex"><ul>
+        <li>애플 메인 페이지 하드코딩</li>
+         <li>소요 시간 &#58; 4일</li>
+        <li>html&#44;css&#44;jquery&#44;javascript 사용</li>
+        <li>웹표준 준수 &#44; 반응형으로 제작</li>
+    </ul></li>
+    <li class="5tardium_Ex"><ul>
+        <li>하이네켄 5tardium 페이지 하드코딩</li>
+         <li>소요 시간 &#58; 4일</li>
+        <li>html&#44;css&#44;javascript 사용</li>
+        <li>웹표준 준수 &#44; 반응형으로 제작</li>
+    </ul></li>
+  </ul>
+    <ul id="dots">   
+    <li class="active"></li>
+    <li></li>
+    <li></li>
+  </ul>
+    </div>
 <!--   움직이는 점들-->
     <div id="dot_Wrap">
         <div class="dot1"></div>
@@ -56,5 +71,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
     <script src="event.js"></script>
+    <script src="slide.js"></script>
   </body>
 </html>

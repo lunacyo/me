@@ -56,20 +56,12 @@ a{
     color: white;
 }
 #wise_Wrap{
-    display: none;
-    position: absolute;
-    width: 50%;
-    left: 50%;
-    margin-left: -25%;
-    height:200px;
-    top:0;
-    text-align: center;
-    z-index:1;
+    
 }
 #wise_Wrap h1{
     font-size:2.5em;
     color: #fff;
-    padding-top: 25px;
+    padding-top: 30px;
 }
 #wise_Wrap p{
     font-size:1.5em;
@@ -167,7 +159,7 @@ a{
     top: 0;
     left: 0;
     width:50px;
-    margin: 20px;
+    margin: 30px;
     z-index: 99;
 }
 #global_Nav div{
@@ -393,6 +385,80 @@ footer a:hover{
             transform: translateY(-25%);
   }
 }
+.html{
+    color:darkorange;
+}
+.css{
+    color: darkturquoise;
+}
+.js{
+    color: yellow;
+}
+.jq{
+    color: dodgerblue;
+}
+
+.text--line {
+  font-size: .4em;
+}
+#wise_Wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    font: 12em/1 Arial;
+}
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 7% 28%;
+  stroke-width: 3px;
+  -webkit-animation: stroke-offset 9s infinite linear;
+          animation: stroke-offset 9s infinite linear;
+}
+.text-copy:nth-child(1) {
+  stroke: #EFEAC5;
+  stroke-dashoffset: 7%;
+}
+.text-copy:nth-child(2) {
+  stroke: #77ccd8;
+  stroke-dashoffset: 14%;
+}
+.text-copy:nth-child(3) {
+  stroke: #B6FF00;
+  stroke-dashoffset: 21%;
+}
+.text-copy:nth-child(4) {
+  stroke: #EFEAC5;
+  stroke-dashoffset: 28%;
+}
+.text-copy:nth-child(5) {
+  stroke: #1B8798;
+  stroke-dashoffset: 35%;
+}
+
+@-webkit-keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+@keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+@-moz-keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+
 
 
 

@@ -31,7 +31,6 @@ $(document).ready(function(){
     });
 });
 window.onload = function(){
-   $('#wise_Wrap').slideDown(2000);
    var about = $("#about");
     TweenMax.staggerFrom([about], 2,  {scale:0.2}, 0.25);
     var dot1 = $('.dot1');

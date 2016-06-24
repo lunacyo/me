@@ -650,6 +650,9 @@ footer a:hover{
     #about h1{
    font-size: 1.5em;
 }
+        .about_Wrap{
+   border: 1px solid lime;
+}
     }
 
 

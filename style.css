@@ -646,11 +646,38 @@ footer a:hover{
 }
     #about p:nth-child(2){
     clear: both;
-    margin-top: 200px;
+    margin-top: 250px;
     font-size: 1em;
 }
     #about h1{
    font-size: 1.5em;
+}
+        .skill{
+    position: absolute;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 50%;
+    height: 50px;
+    text-transform: uppercase;
+}
+.skill strong{
+    display: inline;
+    float: left;
+    margin: 0;
+    font-size: 1.5em;
+    margin-top: 3px;
+    margin-left: 25px;
+}
+.skill ul{
+    margin-top: 0;
+    padding-left: 110px;
+    font-size: 1.5em;
+    -webkit-animation: 6s linear 0s normal none infinite change;
+    animation: 6s linear 0s normal none infinite change;
+}
+.skill li{
+    line-height: 45px;
+    margin: 0;
 }
     }
 

@@ -635,8 +635,8 @@ footer a:hover{
 }
         #about img{
     border-radius:50%;
-    width:200px;
-    height:200px;
+    width:150px;
+    height:150px;
 }
         #about p{
     margin: 15px;
@@ -648,13 +648,6 @@ footer a:hover{
 }
     #about h1{
    font-size: 1.5em;
-}
-        .about_Wrap{
-    position: absolute;
-    width: inherit;
-    height: 400px;
-    top: 50%;
-    margin-top: -200px;
 }
     }
 

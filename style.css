@@ -633,6 +633,10 @@ footer a:hover{
     #dots {
     top: 50%;
 }
+        .about_Wrap{
+            border: 1px solid lime;
+            display: inline-block;
+        }
     #about img{
     border-radius:50%;
     width:150px;

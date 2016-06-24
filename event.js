@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    $('body').css('display','block');
    $('#img_Wrap img').click(function(){
      if($(this).attr('src')=='/images/dg.png'){
           window.open('http://lunacyo.github.io/dg');

@@ -634,7 +634,10 @@ footer a:hover{
     top: 50%;
 }
         #about img{
-    
+            position: absolute;
+            left: 50%;
+            margin-left: -75px;
+    border-radius:50%;
     width:150px;
     height:150px;
 }

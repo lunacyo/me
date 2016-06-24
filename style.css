@@ -633,6 +633,13 @@ footer a:hover{
         #dots {
     top: 50%;
 }
+        #about img{
+    border-radius:50%;
+    width:150px;
+    height:150px;
+    float: left;
+    margin:20px;
+}
     }
 
 

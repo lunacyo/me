@@ -634,7 +634,7 @@ footer a:hover{
     top: 50%;
 }
     #about img{
-    position: relative;
+    position: absolute;
     left: 50%;
     margin-left: -75px;
     border-radius:50%;

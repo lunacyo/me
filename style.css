@@ -581,7 +581,7 @@ footer a:hover{
     #dots {
     top: 45%;
 }
-    @media only screen and (max-width:320px){
+    @media only screen and (max-width:380px){
     #dot_Wrap{
     position: fixed;
     width: 60%;

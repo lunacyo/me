@@ -68,9 +68,9 @@ $(document).ready(function(){
     })
 });
 window.onload = function(){
-    var about = $("#about");
+    var about = $("#about").css('display','block');
     TweenMax.staggerFrom([about], 2,  {scale:0.2}, 0.25);
-    var pf = $('#pf');
+    var pf = $('#pf').css('display','block');
     TweenMax.staggerFrom([pf], 2,  {scale:0.2}, 0.25);
     var dot1 = $('.dot1');
     var dot2 = $('.dot2');

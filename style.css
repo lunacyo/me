@@ -646,7 +646,7 @@ footer a:hover{
 }
     #about p:nth-child(2){
     clear: both;
-    margin-top: 250px;
+    margin-top: 270px;
     font-size: 1em;
 }
     #about h1{
@@ -657,7 +657,7 @@ footer a:hover{
     right:40%;
     overflow: hidden;
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
     height: 50px;
     text-transform: uppercase;
 }

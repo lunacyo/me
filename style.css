@@ -612,8 +612,8 @@ footer a:hover{
     .slider li>ul{
     width: inherit;
     height: inherit;
-    padding-top: 20%;
-    font-size: 1em;
+    padding-top: 40%;
+    font-size: 1.2em;
     color: white;
 }
         .slider {

@@ -616,6 +616,13 @@ footer a:hover{
     font-size: 2em;
     color: white;
 }
+        .slider {
+    position: relative;
+    width: inherit;
+    height: 400px;
+    top: 50%;
+    margin-top: -200px;
+}
         .slider img {
     position: absolute;
     left:50%;

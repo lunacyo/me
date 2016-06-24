@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('body').css('display','block');
    $('#img_Wrap img').click(function(){
      if($(this).attr('src')=='/images/dg.png'){
           window.open('http://lunacyo.github.io/dg');
@@ -68,9 +69,9 @@ $(document).ready(function(){
     })
 });
 window.onload = function(){
-    var about = $("#about").css('display','block');
+    var about = $("#about");
     TweenMax.staggerFrom([about], 2,  {scale:0.2}, 0.25);
-    var pf = $('#pf').css('display','block');
+    var pf = $('#pf');
     TweenMax.staggerFrom([pf], 2,  {scale:0.2}, 0.25);
     var dot1 = $('.dot1');
     var dot2 = $('.dot2');

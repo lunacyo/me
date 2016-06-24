@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   var change_img_time = 8000,
-      transition_speed = 200;
+      transition_speed = 0;
     //슬라이드 autoplay 시간
 
   var listItems = $(".slider").children('li'),

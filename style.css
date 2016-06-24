@@ -637,11 +637,11 @@ footer a:hover{
     border-radius:50%;
     width:150px;
     height:150px;
-    float: left;
+    text-align: center;
     margin:20px;
 }
         #about p{
-            clear: both;
+    clear: both;
     margin: 20px;
     font-size: 1em;
 }

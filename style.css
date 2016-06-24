@@ -642,6 +642,7 @@ footer a:hover{
     height:150px;
 }
         #about p{
+            clear: both;
     margin: 15px;
     font-size: 1em;
 }

@@ -630,31 +630,28 @@ footer a:hover{
     width:80%;
     height:350px;
 }
-        #dots {
+    #dots {
     top: 50%;
 }
-        #about img{
-            position: relative;
-            left: 50%;
-            margin-left: -75px;
+    #about img{
+    position: relative;
+    left: 50%;
+    margin-left: -75px;
     border-radius:50%;
     width:150px;
     height:150px;
 }
-        #about p{
-            clear: both;
+    #about p{
+    clear: both;
     margin: 15px;
     font-size: 1em;
 }
     #about p:nth-child(2){
-    padding-top:-70px;
+    margin-top: 0;
     font-size: 1em;
 }
     #about h1{
    font-size: 1.5em;
-}
-        .about_Wrap{
-   border: 1px solid lime;
 }
     }
 

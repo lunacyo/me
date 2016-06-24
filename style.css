@@ -609,6 +609,20 @@ footer a:hover{
     font-size: 15px;
     color:white;
 }
+    .slider li>ul{
+    width: inherit;
+    height: inherit;
+    padding-top: 20%;
+    font-size: 2em;
+    color: white;
+}
+        .slider img {
+    position: absolute;
+    left:50%;
+    margin-left: -20%;
+    width:50%;
+    height:400px;
+}
     }
 
 
